@@ -1,5 +1,14 @@
 {
   "scripts": {
-    "test": "echo \"No tests yet\" && exit 0"
+    "test": "echo \"No tests yet\" && exit 0",
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.103.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
   }
 }
